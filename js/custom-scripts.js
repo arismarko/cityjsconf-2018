@@ -1,4 +1,4 @@
- $(function(){
+$(function () {
 
     'use strict';
 
@@ -7,8 +7,8 @@
     /*********************************************************/
     /* FULLSCREEN HOME SECTION                               */
     /*********************************************************/
-    var fullscreen_home = function(){
-        if(matchMedia( "(min-width: 768px) and (min-height: 500px)" ).matches) {
+    var fullscreen_home = function () {
+        if (matchMedia("(min-width: 768px) and (min-height: 500px)").matches) {
             var height = $(window).height() + "px";
             $(".header-overlay").css('min-height', height);
         }
@@ -19,15 +19,15 @@
     /**********************************************************/
     /* NAVBAR BUTTON CHANGE                                   */
     /**********************************************************/
-    var aboutOurEventLeft = function(){
+    var aboutOurEventLeft = function () {
         var leftHeight = $('.about-our-event-left').height();
         var rightHeight = $('.about-our-event-right').height();
 
-        if(leftHeight >= rightHeight){
+        if (leftHeight >= rightHeight) {
             $(".background-left").css('min-height', leftHeight);
             $(".background-right").css('min-height', leftHeight);
             $(".background-right-overlay-color").css('min-height', leftHeight);
-        }else{
+        } else {
             $(".background-left").css('min-height', rightHeight);
             $(".background-right").css('min-height', rightHeight);
             $(".background-right-overlay-color").css('min-height', rightHeight);
@@ -40,7 +40,7 @@
     /**********************************************************/
     /* MAP HEIGHT                                             */
     /**********************************************************/
-    var contactUsBody = function(){
+    var contactUsBody = function () {
         var mapHeight = $('.contact-us-body').height();
         $(".map").css('min-height', mapHeight);
     }
@@ -51,18 +51,17 @@
     /*********************************************************/
     /* COLLAPSE LEFT HEIGHT                                  */
     /*********************************************************/
-    var collapseLeft = function(){
-        $(".collapse-left").css('min-height', $('.collapse-area').height() );
+    var collapseLeft = function () {
+        $(".collapse-left").css('min-height', $('.collapse-area').height());
     }
 
-
     /*********************************************************/
-    /*   SCEDULE SECTION MOBILE VIEW                         */             
+    /*   SCEDULE SECTION MOBILE VIEW                         */
     /*********************************************************/
-    var btnSceduleCss = function(){
-        if($(document).width() <= 991){
+    var btnSceduleCss = function () {
+        if ($(document).width() <= 991) {
             $('.btn-scedule-css').css('display', 'block');
-        }else{
+        } else {
             $('.btn-scedule-css').css('display', 'none');
             $('.nav-cus').css('display', 'block');
         }
@@ -74,7 +73,7 @@
     /*   PRELOADER                                           */
     /*********************************************************/
     // makes sure the whole site is loaded
-    $(window).load(function() {
+    $(window).load(function () {
         // will first fade out the loading animation
         $(".bubblingG").fadeOut();
         //then background color will fade out slowly
@@ -84,8 +83,8 @@
 
 
 
-    
-    $(window).resize(function(){
+
+    $(window).resize(function () {
 
         /*********************************************************/
         /* FULLSCREEN HOME FUNCTION                              */
@@ -104,10 +103,10 @@
         /* COLLAPSE LEFT HEIGHT                                  */
         /*********************************************************/
         collapseLeft();
-        
+
 
         /*********************************************************/
-        /*   SCEDULE SECTION MOBILE VIEW                         */             
+        /*   SCEDULE SECTION MOBILE VIEW                         */
         /*********************************************************/
         btnSceduleCss();
     });
@@ -115,7 +114,7 @@
 
 
 
-    $(document).ready(function() {
+    $(document).ready(function () {
 
 
 
@@ -130,26 +129,26 @@
 
         /**********************************************************/
         /* CAROUSEL SLIDER                                        */
-        /**********************************************************/ 
+        /**********************************************************/
         var owl = $("#slider");
 
         /* TESTIMONIAL SYNC WITH CLIENTS */
         owl.owlCarousel({
-            items : 4, //10 items above 1000px browser width
-            itemsDesktop : [1190, 3], //5 items between 1000px and 901px
-            itemsDesktopSmall     : [992,3], // 3 items betweem 992px and 769px
-            itemsTablet       : [768,2], // 3 items between 768 and 601
-            itemsTabletSmall       : [480,1], // 2 items in widen mobile device
-            itemsMobile       : [320,1], // 1 items in any small mobile device
-            pagination:true,
-            responsiveRefreshRate : 100
+            items: 4, //10 items above 1000px browser width
+            itemsDesktop: [1190, 3], //5 items between 1000px and 901px
+            itemsDesktopSmall: [992, 3], // 3 items betweem 992px and 769px
+            itemsTablet: [768, 2], // 3 items between 768 and 601
+            itemsTabletSmall: [480, 1], // 2 items in widen mobile device
+            itemsMobile: [320, 1], // 1 items in any small mobile device
+            pagination: true,
+            responsiveRefreshRate: 100
         });
 
 
 
 
         /*********************************************************/
-        /*   SCEDULE SECTION MOBILE VIEW                         */             
+        /*   SCEDULE SECTION MOBILE VIEW                         */
         /*********************************************************/
         btnSceduleCss();
 
@@ -159,19 +158,19 @@
         /**********************************************************/
         /* DROPDOWN LABLE TEXT FOR MOBILE SIZE                    */
         /**********************************************************/
-        $('.dropdown .label').click(function(){
+        $('.dropdown .label').click(function () {
             $($(this).data("id")).slideToggle('show');
         });
-        $('.nav li').click(function(){
+        $('.nav li').click(function () {
             var text = $(this).find('.nav-header').text();
             $(this).closest('.dropdown').find('.label').html(text + '<span class="glyphicon glyphicon-menu-down float-right" aria-hidden="true"></span>');
-        
-            if($(document).width() <= 991){
+
+            if ($(document).width() <= 991) {
                 $($(this).closest('.dropdown').find('.nav-cus')).slideToggle('show');
             }
         });
 
-        $('.dropdown ul li:first-child a .nav-header').each(function(){
+        $('.dropdown ul li:first-child a .nav-header').each(function () {
             var text = $(this).text();
             $(this).closest('.dropdown').children('.label').html(text + '<span class="glyphicon glyphicon-menu-down float-right" aria-hidden="true"></span>');
         });
@@ -227,7 +226,7 @@
         /* PARALLAX                                               */
         /**********************************************************/
         $(window).stellar({
-            horizontalScrolling: false 
+            horizontalScrolling: false
         });
 
 
@@ -243,7 +242,7 @@
             cursorborder: "none",
             cursorwidth: "6px",
             cursorborderradius: "none",
-            horizrailenabled:false
+            horizrailenabled: false
         });
 
 
@@ -252,12 +251,12 @@
 
         /***********************************************************/
         /* COUNT DOWN                                              */
-        /***********************************************************/       
+        /***********************************************************/
         $('.count_down').countdown({
             end_time: "2018/3/26 08:00:28 +0600",
-            wrapper: function(unit){
+            wrapper: function (unit) {
                 var wrpr = $('<div></div>').
-                    addClass(unit.toLowerCase()+'_wrapper').
+                    addClass(unit.toLowerCase() + '_wrapper').
                     addClass('col-sm-3').
                     addClass('col-xs-3').
                     addClass('col-md-3').
@@ -268,7 +267,7 @@
                     appendTo(wrpr);
 
                 $('<span class="counter style_all"></span>').appendTo(background);
-                $('<span class="title">'+unit+'</span>').appendTo(background);
+                $('<span class="title">' + unit + '</span>').appendTo(background);
                 return wrpr;
             }
         });
@@ -280,13 +279,13 @@
         /*  Bootstrap Internet Explorer 10 in Windows 8 and Windows Phone 8 FIX   */
         /**************************************************************************/
         if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-          var msViewportStyle = document.createElement('style')
-          msViewportStyle.appendChild(
-            document.createTextNode(
-              '@-ms-viewport{width:auto!important}'
+            var msViewportStyle = document.createElement('style')
+            msViewportStyle.appendChild(
+                document.createTextNode(
+                    '@-ms-viewport{width:auto!important}'
+                )
             )
-          )
-          document.querySelector('head').appendChild(msViewportStyle)
+            document.querySelector('head').appendChild(msViewportStyle)
         }
 
 
@@ -297,18 +296,18 @@
         /***********************************************************/
         $("#sync").owlCarousel({
             pagination: false,
-            autoPlay : 3000,
-            stopOnHover : true,
+            autoPlay: 3000,
+            stopOnHover: true,
             navigation: false,
-            paginationSpeed : 1000,
-            goToFirstSpeed : 2000,
-            singleItem : true,
-            autoHeight : true,
-            transitionStyle:"fade"
+            paginationSpeed: 1000,
+            goToFirstSpeed: 2000,
+            singleItem: true,
+            autoHeight: true,
+            transitionStyle: "fade"
         });
 
 
-     
+
     });
 
 
@@ -316,15 +315,15 @@
     /*   GOOGLE MAP                                           */
     /**********************************************************/
     function init_map() {
-        var myLocation = new google.maps.LatLng(51.527825,-0.102545);
-            
-            var draggableValue;
-            if($(document).width() <= 768){
-                draggableValue = false;   /*This option is used for disabling drag.*/
-            }
-            else{
-                draggableValue = true;   /*This option is used for disabling drag.*/
-            }
+        var myLocation = new google.maps.LatLng(51.527825, -0.102545);
+
+        var draggableValue;
+        if ($(document).width() <= 768) {
+            draggableValue = false;   /*This option is used for disabling drag.*/
+        }
+        else {
+            draggableValue = true;   /*This option is used for disabling drag.*/
+        }
 
 
         var mapOptions = {
@@ -335,23 +334,24 @@
             scaleControl: false,   /*This option is used for disable zoom by scale.*/
             scrollwheel: false,   /*This option is used for disable zoom on mouse.*/
             navigationControl: true,   /**/
-            
+
             // How you would like to style the map. 
-           // This is where you would paste any style found on Snazzy Maps.
-           styles: [{"stylers": [{"saturation": -100}]}],
+            // This is where you would paste any style found on Snazzy Maps.
+            styles: [{ "stylers": [{ "saturation": -100 }] }],
 
             streetViewControl: true   /**/
-          
+
         };
 
         var marker = new google.maps.Marker({
             position: myLocation,
-            title:"Peggy Guggenheim Collection"});
-          
+            title: "Peggy Guggenheim Collection"
+        });
+
         var map = new google.maps.Map(document.getElementById("map"),
             mapOptions);
 
-        marker.setMap(map); 
+        marker.setMap(map);
     }
     google.maps.event.addDomListener(window, 'load', init_map);
 

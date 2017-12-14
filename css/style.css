@@ -992,6 +992,7 @@ h3 {
   background: #ffffff;
 }
 .contact-us .contact-us-body {
+  padding:20px;
   overflow: hidden;
 }
 .contact-us-left p {

@@ -316,7 +316,7 @@
     /*   GOOGLE MAP                                           */
     /**********************************************************/
     function init_map() {
-        var myLocation = new google.maps.LatLng(51.52779,-0.10232);
+        var myLocation = new google.maps.LatLng(51.527825,-0.102545);
             
             var draggableValue;
             if($(document).width() <= 768){

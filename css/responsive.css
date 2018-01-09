@@ -168,7 +168,7 @@
     margin-bottom: 0px;
   }
   .scedule-body .tab-pane p {
-    display: none;
+    /* display: none; */
   }
   .scedule-main {
     padding-right: 0px;

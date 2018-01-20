@@ -1,31 +1,39 @@
-<!-- Portfolio Grid Section -->
-    <section id="speakers" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Speakers</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
-            </div>
-            <div class="row">
-            {% for post in site.categories.2017_speakers %}
-                <div class="col-md-4 col-sm-6 speakers-item">
-                    <a href="#{{ post.name }}" class="speakers-link" data-toggle="modal">
-                        <div class="speakers-hover">
-                            <div class="speakers-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="../css/2017_style/img/speaker/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
-                    </a>
-                    <div class="speakers-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
+   <section class="speakers" id="section-4" ><!-- Start: Speakers Area, "SECTION-4" -->
+            <div class="container">
+                <div class="row speakers-body col-md-12 col-lg-offset-1 col-lg-10" >
+
+                    <div class="wow fadeInDown animated" data-wow-offset="120" data-wow-duration="1.5s">
+                        <h2>OUR SPEAKERS</h2><!-- Speakers Heading Goes Here -->
                     </div>
-                </div>
-            {% endfor %}
-            </div>
-            <p>Visit 2016's page.</p>
-            <center><a href="/2016" class="page-scroll btn btn-xl">Visit Now</a></center>
-        </div>
-    </section>
+                
+                    <div id="slider" class="wow fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s"><!-- Start: Slider Area -->
+
+                        <!-- Speakers Slide images Goes Here -->
+                         {% for post in site.categories.2017_speakers %}
+                        <div class="item">
+                            
+                            <div class="view view-first">
+                                <img src="images/speakers-img/1.png" alt="">
+                                <div class="mask">
+                                    <ul class="nav">
+                                        <li><a href="#"> <i class="fa facebook fa-facebook"></i> </a></li>
+                                        <li><a href="#"> <i class="fa twitter fa-twitter"></i> </a></li>
+                                        <li><a href="#"> <i class="fa skype fa-skype"></i> </a></li>
+                                        <li><a href="#"> <i class="fa rss fa-rss "></i> </a></li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+
+                            <h3>{{ post.name }}</h3>
+                            <p>CEO, DeviserWeb</p>
+
+                        </div>
+                         {% endfor %}
+
+                    </div><!-- End: "slider" Area -->
+
+                </div><!-- Start: Speakers Body Area -->
+            </div><!-- End:  "container"-->
+        </section><!-- End: Speakers Area, "SECTION-4" -->

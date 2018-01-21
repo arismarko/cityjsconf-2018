@@ -1,0 +1,12 @@
+---
+title: Jonathan Fielding
+name: Engineering Manager @Beamly
+subtitle: Position
+layout: 2017_default
+modal-id: 5
+img: jonathanf.jpeg
+thumbnail: jonathanf.jpg
+alt: Picture of TBD
+topic: How to make pragmatic choices around developer experience vs user experience
+description: More Info
+---

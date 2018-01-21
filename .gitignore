@@ -31,3 +31,7 @@ assets/css/
 
 # git related
 .gitconfig
+
+_site
+.sass-cache
+.jekyll-metadata

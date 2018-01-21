@@ -1,0 +1,12 @@
+---
+title: Mark Wubben
+name: Dojo - AvaJS - InstabulJS
+subtitle: Position
+layout: 2017_default
+modal-id: 1
+img: mark_webber_thumbnail.jpg
+thumbnail: TBD.jpg
+alt: Picture of TBD
+topic: Value Comparisons How Do I Even? 
+description: More Info
+---

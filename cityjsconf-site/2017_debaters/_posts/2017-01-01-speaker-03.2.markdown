@@ -1,0 +1,12 @@
+---
+title: Dylan Schiemann
+name: Dojo - SitePen
+subtitle: Position
+layout: 2017_default
+modal-id: 1
+img: dylan_thumbnail.jpeg
+thumbnail: TBD.jpg
+alt: Picture of TBD
+topic: The blah blah I believe ....
+description: More Info
+---

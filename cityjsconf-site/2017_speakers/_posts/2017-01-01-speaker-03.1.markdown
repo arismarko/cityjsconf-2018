@@ -1,0 +1,12 @@
+---
+title: Peter Heard
+name: Logicroom
+subtitle: Position
+layout: 2017_default
+modal-id: 5
+img: pete_heard.jpg
+thumbnail: TBD.jpg
+alt: Picture of TBD
+topic: Building Scalable React Native Apps
+description: More Info
+---

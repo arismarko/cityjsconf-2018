@@ -1,12 +1,12 @@
 ---
-title: Name
-name: Name-2
+title: Mark Wubben
+name: Dojo - AvaJS - InstabulJS
 subtitle: Position
 layout: 2017_default
 modal-id: 1
-img: TBD.jpg
+img: mark_webber_thumbnail.jpg
 thumbnail: TBD.jpg
 alt: Picture of TBD
-topic: Topic
+topic: Value Comparisons How Do I Even? 
 description: More Info
 ---

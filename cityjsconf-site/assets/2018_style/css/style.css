@@ -461,7 +461,7 @@ h3 {
   overflow: hidden;
 }
 .about-background-image .background-right {
-  background-image: url('../images/scedule.jpg');
+  background-image: url('../../2018_images/scedule.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding-left: 0;
@@ -1278,4 +1278,13 @@ a.prev:hover {
   -moz-transition: all 0.8s;
   -webkit-transition: all 0.8s;
   -o-transition: all 0.8s;
+}
+
+.grayish-color {
+  background: #000;
+  color:#fff;
+}
+
+.main-event p, h3{
+  color:#fff;
 }

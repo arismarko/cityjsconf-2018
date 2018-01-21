@@ -13,7 +13,7 @@
                         <div class="item">
                             
                             <div class="view view-first">
-                                <img src="images/speakers-img/1.png" alt="">
+                                <img src="{{"../assets/2018_images/speakers-img/" | prepend: site.baseurl | append: post.img}}"  alt="">
                                 <div class="mask">
                                     <ul class="nav">
                                         <li><a href="#"> <i class="fa facebook fa-facebook"></i> </a></li>
@@ -26,8 +26,10 @@
                             </div>
                             <div class="clearfix"></div>
 
-                            <h3>{{ post.name }}</h3>
-                            <p>CEO, DeviserWeb</p>
+                            <h3>{{ post.title }}</h3>
+                            <p>{{ post.name }}</p>
+
+                            <p>{{ post.topic }}</p>
 
                         </div>
                          {% endfor %}

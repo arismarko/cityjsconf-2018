@@ -1,0 +1,12 @@
+---
+title: Luca Mezallira
+name:  Event's Moderator
+subtitle: Position
+layout: 2017_default
+modal-id: 1
+img: luca_thumbnail.jpg
+thumbnail: TBD.jpg
+alt: Picture of TBD
+topic: Moderator
+description: More Info
+---

@@ -1,0 +1,56 @@
+
+        <section class="scedule col-xs-16" id="section-x"> <!-- Start: our-featured-speaker, "SECTION-3" -->
+            <div class="grayish-color"> <!-- Start: Overlay color  -->
+                <div class="container">
+                   
+                <!-- Start: About Our Event Area  -->
+                <div class="row main-event">
+                    <!-- Start: About-Our-Event Left Area  -->
+        			<div class="main-event-left col-md-12" data-wow-offset="120" data-wow-duration="1.5s">
+                        <div class="main-event-left-body">
+            				<h2>THE DEBATE EVENT</h2>
+                            <p class="subtitle"> CityJSConf we will be hosting a debate between Kyle Simpson and Dylan Schiemann on the merits of Strong and Weak typing in JavaScript moderated by Luca Mezallira. 
+                            </p>
+                            <p class="copy">
+                               One of the biggest strengths and weaknesses, pun intended, is the weakly typed nature of JavaScript. In this debate, we’ll consider the value and benefits of adding development time type systems such as TypeScript vs. limitations they may impose.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div id="main-event" class="main-event-left col-md-12 speaker" data-wow-offset="120" data-wow-duration="1.5s">
+
+
+                          <div class="wow fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s"><!-- Start: Slider Area -->
+
+                        <!-- Speakers Slide images Goes Here -->
+                         {% for post in site.categories.2017_debaters %}
+                        <div class="item">
+                            
+                            <div class="view view-first">
+                                <img src="{{"../assets/2018_images/speakers-img/" | prepend: site.baseurl | append: post.img}}"  alt="">
+                                <div class="mask">
+                                    <!-- <ul class="nav">
+                                        <li><a href="#"> <i class="fa facebook fa-facebook"></i> </a></li>
+                                        <li><a href="#"> <i class="fa twitter fa-twitter"></i> </a></li>
+                                        <li><a href="#"> <i class="fa skype fa-skype"></i> </a></li>
+                                        <li><a href="#"> <i class="fa rss fa-rss "></i> </a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+
+                            <h3>{{ post.title }}</h3>
+                            <p>{{ post.name }}</p>
+
+                        </div>
+                         {% endfor %}
+
+                    </div><!-- End: "slider" Area -->
+        			</div>
+                    <!-- End: About-Our-Event Left Area  -->
+        		</div>
+                </div> <!-- End: container   -->
+            </div> <!-- End: Overlay color   -->
+        </section> <!-- End: our-featured-speaker, "SECTION-3" -->
+
+      

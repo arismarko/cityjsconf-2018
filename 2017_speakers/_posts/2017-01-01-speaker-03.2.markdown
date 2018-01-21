@@ -1,0 +1,12 @@
+---
+title: Yan Cui
+name: Functional Programmer, Cloud Architect, Learner, Speaker
+subtitle: Position
+layout: 2017_default
+modal-id: 5
+img: yancui.jpg
+thumbnail: yancui.jpg
+alt: Picture of TBD
+topic: Applying principles of chaos engineering to Serverless
+description: More Info
+---

@@ -17,3 +17,30 @@ Partners
     vertical-align:middle;
     margin-right:-4px;
 }
+
+.gold-partner img{
+    max-height: 200px;
+}
+
+
+#main-event .item:first-child{
+    padding-right:25px;
+}
+
+#main-event .item:last-child{
+    padding-left:25px;
+}
+
+.lecture-background {
+  background: url('../images/lecture-theatre.jpg') top center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.workshops p{
+    color:#fff;
+}
+
+.workshops {
+    padding:40px;
+}

@@ -1,11 +1,11 @@
 ---
-title: Alex Lakatos
-name: Mozilla, Nexmo
+title: Lucas Fernandes da Costa 
+name: Chai Core Team, Sinon maintainer 
 subtitle: Position
 layout: 2017_default
 modal-id: 1
-img: alex_thumbnail.jpg
+img: lucas_thumbnail.jpeg
 alt: Picture of TBD
-topic: TBD
+topic: JavaScript Behind The Scenes - Meta Programming
 description: More Info
 ---

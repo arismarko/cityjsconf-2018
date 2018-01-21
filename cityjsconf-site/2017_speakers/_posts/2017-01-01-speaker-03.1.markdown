@@ -1,12 +1,12 @@
 ---
-title: Peter Heard
-name: Logicroom
+title: Jonathan Fielding
+name: Engineering Manager @Beamly
 subtitle: Position
 layout: 2017_default
 modal-id: 5
-img: pete_heard.jpg
-thumbnail: TBD.jpg
+img: jonathanf.jpeg
+thumbnail: jonathanf.jpg
 alt: Picture of TBD
-topic: Building Scalable React Native Apps
+topic: How to make pragmatic choices around developer experience vs user experience
 description: More Info
 ---

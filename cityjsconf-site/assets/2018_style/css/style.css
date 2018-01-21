@@ -219,7 +219,7 @@ h3 {
  *  
  */
 .header-background {
-  background: url('../images/bg-1.jpg') top center fixed;
+  background: url('../../2018_images/bg-1.jpg') top center fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }

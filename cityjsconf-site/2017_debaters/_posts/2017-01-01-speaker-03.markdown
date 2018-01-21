@@ -1,11 +1,11 @@
 ---
 title: Kyle Simpson
-name: To Add
+name: Founder, Teacher, Mentor. 
 subtitle: Position
 layout: 2017_default
 modal-id: 1
 img: kyle_thumbnail.jpg
 thumbnail: TBD.jpg
 alt: Picture of TBD
-topic: The blah blah I believe ....
+topic: Founder, Teacher, Mentor. 
 ---

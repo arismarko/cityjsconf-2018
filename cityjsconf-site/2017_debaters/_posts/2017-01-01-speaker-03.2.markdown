@@ -7,6 +7,6 @@ modal-id: 1
 img: dylan_thumbnail.jpeg
 thumbnail: TBD.jpg
 alt: Picture of TBD
-topic: The blah blah I believe ....
+topic: Known for things called Dojo, SitePen, and Comet
 description: More Info
 ---

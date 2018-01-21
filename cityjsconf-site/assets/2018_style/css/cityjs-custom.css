@@ -19,9 +19,21 @@ Partners
 }
 
 .gold-partner img{
-    max-height: 200px;
+    max-height: 250px;
 }
 
+.main-event-left-body{
+    width:1000px
+}
+
+#main-event .item img {
+    margin-bottom:30px;
+}
+
+#main-event .item {
+    max-width:20%;
+    min-height:200px;
+}
 
 #main-event .item:first-child{
     padding-right:25px;

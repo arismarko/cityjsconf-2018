@@ -1,6 +1,6 @@
 ---
 title: Luca Mezallira
-name: DAZN - Google Developer Expert
+name:  Event's Moderator
 subtitle: Position
 layout: 2017_default
 modal-id: 1

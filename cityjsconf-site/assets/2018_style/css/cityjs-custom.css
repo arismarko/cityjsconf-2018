@@ -18,6 +18,10 @@ Partners
     margin-right:-4px;
 }
 
+.gold-partner{
+    max-width:250px;
+}
+
 #main-event .item:first-child{
     padding-right:25px;
 }

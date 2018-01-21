@@ -40,6 +40,15 @@ Partners
     padding:40px;
 }
 
-.workshops img {
-    
+
+
+@media (max-width:499px){
+    .workshops img {
+        width:100%;
+    } 
+ 
+    .item {
+      width:205px;
+    }
 }
+

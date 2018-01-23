@@ -306,8 +306,13 @@ $(function () {
             transitionStyle: "fade"
         });
 
+        $('.show-modal').on('click', function(e) {
+            e.preventDefault();
 
+            var modalContent = $(e.target).parent().find('.modal-content');
 
+            $('#modal-body').append(modalContent).addClass('visible');
+        });
     });
 
 

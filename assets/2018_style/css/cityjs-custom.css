@@ -40,8 +40,16 @@ Partners
     color:#fff;
 }
 
+.workshops .panel-body p {
+    color:#000;
+}
+
 .workshops {
     padding:40px;
+}
+
+.workshops .collapse-right {
+    padding:0px;
 }
 
 

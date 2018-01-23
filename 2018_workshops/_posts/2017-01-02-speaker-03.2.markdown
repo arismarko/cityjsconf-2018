@@ -1,0 +1,7 @@
+---
+title: "ES6: The Right Parts"
+selectedid: workshop1
+dated: 27 March
+index: 1
+description: "<div><p>With the advent of ES6 (aka ES2015) a few years back, the log jam holding back improvements to the JS language design was finally unstuck. But with it came a flood of new language features, into an already overwhelmingly crowded and fragmented ecosystem of JS tools and frameworks. And JS changes just keep coming and coming. For many, this pace of change can be very intimidating and frustration.</p> <p>This workshop is to give you a different perspective on the &quot;right parts&quot; of the latest changes in JS that you should focus on learning first. To motivate that effort, we need to understand what ES6 was really all about: declarative code readability. ES6 isn't about shiny new toys to do entirely new things, but rather about doing old things, better.</p> <p>We'll explore a variety of langauge additions from this perspective -- always asking, how does this improve the readability of code I have always written before -- including: arrow functions, block scoping, defaults, spread/rest, destructuring, iterators, generators, and more.</p> <p>If you've been wondering when you'll ever find the time to learn all this new stuff in JS, don't worry. This workshop is designed to help you focus on the parts you need to learn first and give you the &quot;right&quot; perspective on language feature improvements.More Info</p></div>"
+---

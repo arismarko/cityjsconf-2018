@@ -3,10 +3,26 @@ title: Mark Wubben
 name: Dojo - AvaJS - InstabulJS
 subtitle: Position
 layout: 2017_default
-modal-id: 1
+sid: 3
 img: mark_webber_thumbnail.jpg
 thumbnail: TBD.jpg
 alt: Picture of TBD
 topic: Value Comparisons How Do I Even? 
-description: More Info
+description: "<p>You know about the == operator, and the === operator too. They&rsquo;re great for comparing strings and numbers. But have you heard about Object.is()? Did you know it can give results different from ===? What&rsquo;s negative zero? Why is 0.1 + 0.2 not equal to 0.3? How do you go about comparing maps and objects and buffers and arrays?</p>
+
+<p>This talk goes into the nitty gritty of JavaScript value types and how to compare them.</p>
+
+<p>I&rsquo;ll cover value types in JavaScript:</p>
+
+<p>Primitives, e.g. numbers &amp; strings</p>
+
+<p>Objects, e.g. objects, but also arrays, sets, weak maps, typed arrays, etc</p>
+
+<p>Boxed types (Object(42))</p>
+
+<p>I&rsquo;ll cover how these values can be compared to each other through ==, === and Object.is(). I&rsquo;ll discuss the (legacy) quirks around typeof.</p>
+
+<p>I&rsquo;ll discuss how seemingly weird numbers are in JavaScript. It doesn&rsquo;t help that they&rsquo;re actually floats, resulting in 0.1 + 0.2 !== 0.3. I&rsquo;ll explain why Number.MAX_SAFE_INTEGER + 2 === Number.MAX_SAFE_INTEGER + 1. And why there is a negative zero, and why NaN !== NaN. There&rsquo;ll be a brief aside for the BigInt proposal and a quick reference of other proposals for fixing numbers.</p>
+
+<p>Finally I&rsquo;ll talk about deep value comparisons and why immutability is so important for building modern frontends.</p>"
 ---

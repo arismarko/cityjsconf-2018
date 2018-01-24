@@ -8,5 +8,5 @@ img: stephanie.jpeg
 thumbnail: stephanie.jpeg
 alt: Picture of TBD
 topic: How to make your LEDs better listeners- Leveraging MQTT protocol to communicate with hardware from web
-description: More Info
+description: Will be available soon.
 ---

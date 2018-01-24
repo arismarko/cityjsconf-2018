@@ -1,0 +1,12 @@
+---
+title: Stephanie Nemeth
+name: Frontend Dev @Wekspot and Co-organiser of the Stupid Hackanthlon Amsterdam
+subtitle: Position
+layout: 2017_default
+modal-id: 2
+img: stephanie.jpeg
+thumbnail: stephanie.jpeg
+alt: Picture of TBD
+topic: How to make your LEDs better listeners- Leveraging MQTT protocol to communicate with hardware from web
+description: More Info
+---

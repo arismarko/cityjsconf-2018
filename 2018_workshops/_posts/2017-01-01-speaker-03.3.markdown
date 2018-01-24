@@ -1,0 +1,7 @@
+---
+title: Node Fundamentals
+selectedid: workshop2
+dated: 28 March
+index: 2
+description: "<p>Unquestionably, Node.js is one of the most exciting movements in the history of JavaScript. It's opened up a wide swath of new tasks that JS developers can tackle, and offers the unprecedented capability to write code and share that logic between the browser and the server.</p><p>But just knowing JS the language, or even being able to sling it around in browser web applications, is only a tiny slice of what you need to be able to write effective code in Node.js.</p><p>This all hands-on coding workshop will guide you through the basics and intermediate foundations that make up solid and robust Node.js programming, including: Command-line Interface (CLI) programming, file system operations, asynchronous coding, streams, modules/packages/npm, socket and HTTP handling, database persistence, and more!</p>"
+---

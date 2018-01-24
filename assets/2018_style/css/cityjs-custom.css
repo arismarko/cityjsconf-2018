@@ -34,7 +34,7 @@ Partners
 }
 
 .lecture-background {
-  background: url('../images/lecture-theatre.jpg') top center fixed;
+  background: url('../images/lecture-theatre.png') top center fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -43,8 +43,16 @@ Partners
     color:#fff;
 }
 
+.workshops .panel-body p {
+    color:#000;
+}
+
 .workshops {
     padding:40px;
+}
+
+.workshops .collapse-right {
+    padding:0px;
 }
 
 

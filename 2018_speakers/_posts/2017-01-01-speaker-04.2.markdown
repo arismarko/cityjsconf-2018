@@ -1,0 +1,11 @@
+---
+title: Kadi Kraman
+name: Software Engineer at Formidable Labs (@FormidableLabs)
+subtitle: Position
+layout: 2017_default
+sid: 2
+img: kadithumb.jpg
+alt: Picture of TBD
+topic: "Getting started with Apollo GraphQL: an opinionated end to end journey with Node.js and React"
+description: Will be available soon.
+---

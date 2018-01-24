@@ -7,26 +7,21 @@
                     </div>
                 
                     <div id="slider" class="wow fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s"><!-- Start: Slider Area -->
-
                         <!-- Speakers Slide images Goes Here -->
-                         {% for post in site.categories.2017_speakers %}
+                        {% for post in site.categories.2017_speakers %}
                         <div class="item">
                             <div class="modal-content">
                                 <h3>{{ post.title }}</h3>
                                 <p>{{ post.name }}</p>
+                                <h4>Description</h4>
                                 <p>{{ post.description }}</p>
+                                {% if post.bio %}
+                                    <h4>Bio</h4>
+                                    <p>{{ post.bio }}</p>
+                                {% endif %}
                             </div>
                             <div class="view view-first">
                                 <img src="{{"../assets/2018_images/speakers-img/" | prepend: site.baseurl | append: post.img}}"  align="middle" alt="">
-                                <!-- <div class="mask">
-                                    <ul class="nav">
-                                        <li><a href="#"> <i class="fa facebook fa-facebook"></i> </a></li>
-                                        <li><a href="#"> <i class="fa twitter fa-twitter"></i> </a></li>
-                                        <li><a href="#"> <i class="fa skype fa-skype"></i> </a></li>
-                                        <li><a href="#"> <i class="fa rss fa-rss "></i> </a></li>
-                                    </ul>
-                                    
-                                </div> -->
                             </div>
                             <div class="clearfix"></div>
 
@@ -36,10 +31,8 @@
                             <p>{{ post.topic }}</p>
                             <a href="#" class="show-modal">More info</a>
                         </div>
-                         {% endfor %}
-
+                        {% endfor %}
                     </div><!-- End: "slider" Area -->
-
                 </div><!-- Start: Speakers Body Area -->
             </div><!-- End:  "container"-->
         </section><!-- End: Speakers Area, "SECTION-4" -->

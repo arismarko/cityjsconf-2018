@@ -306,12 +306,22 @@ $(function () {
             transitionStyle: "fade"
         });
 
+        /***********************************************************/
+        /* CUSTOM MODAL JQ CODE                                    */
+        /***********************************************************/
         $('.show-modal').on('click', function(e) {
             e.preventDefault();
 
-            var modalContent = $(e.target).parent().find('.modal-content');
+            var modalContent = $(e.target).parent().find('.modal-content')
+                .clone()
+                .append('<div id="modal-header" />');
 
-            $('#modal-body').append(modalContent).addClass('visible');
+            $('#modal-body').append(modalContent);
+            $('#modal-overlay').addClass('visible');
+        });
+        $('#modal-body').on('click', '#modal-header', function(e) {
+            $('#modal-overlay').removeClass('visible');
+            $('#modal-body').empty();
         });
     });
 

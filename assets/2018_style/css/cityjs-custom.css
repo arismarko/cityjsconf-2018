@@ -67,14 +67,27 @@ Partners
     display: none;
 }
 
+#modal-body {
+    width: 100%;
+}
+
 #modal-body .modal-content {
     display: block;
     padding: 20px;
-    width: 50%;
-    left: 25%;
+    width: 60%;
+    left: 20%;
 }
 
-#modal-body .modal-content:before {
+@media (max-width: 968px) {
+    #modal-body .modal-content {
+        display: block;
+        padding: 20px;
+        width: 100%;
+        left: 0;
+    }
+}
+
+#modal-header:before {
     content: 'x';
     position: absolute;
     top: 5px;
@@ -91,7 +104,7 @@ Partners
     color: #ff3030;
 }
 
-#modal-body {
+#modal-overlay {
     background: #000;
     position: fixed;
     width: 100%;
@@ -101,8 +114,16 @@ Partners
     display: none;
 }
 
-#modal-body.visible {
+#modal-overlay.visible {
     display: flex;
     justify-items: center;
     align-items: center;
+}
+
+@media (max-width: 968px) {
+    #modal-overlay.visible {
+        justify-items: flex-start;
+        align-items: flex-start;
+        overflow: auto;
+    }
 }

@@ -25,6 +25,20 @@ Partners
     max-width:250px;
 }
 
+#askyourquestion {
+    border:1px solid #fff;
+    padding:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    background:rgba(255, 48, 48, 0.9);
+}
+
+#askyourquestion .btn {
+     background:#c90000;
+     color:#fff;
+     border:1px solid #fff;
+}
+
 #main-event .item:first-child{
     padding-right:25px;
 }
@@ -32,6 +46,7 @@ Partners
 #main-event .item:last-child{
     padding-left:25px;
 }
+
 
 .lecture-background {
   background: url('../images/lecture-theatre.png') top center fixed;

@@ -1,0 +1,12 @@
+---
+title: Philip Stockwell
+name: Developer Advocate @Microsoft
+subtitle: Position
+layout: 2017_default
+modal-id: 2
+img: stockwell.jpeg
+thumbnail: stockwell.jpeg
+alt: Picture of TBD
+topic: TBD
+description: TBD
+---

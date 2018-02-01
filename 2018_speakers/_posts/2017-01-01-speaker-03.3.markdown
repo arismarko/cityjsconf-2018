@@ -1,0 +1,12 @@
+---
+title: Alvin Ourrad
+name: Functional Programmer, Cloud Architect, Learner, Speaker
+subtitle: Position
+layout: 2017_default
+sid: 1
+img: alvin.jpeg
+thumbnail: yancui.jpeg
+alt: Picture of TBD
+topic: How I fell in love with unidirectional Data Flow and functional programming (+ WebGL demo)
+description: "<p>The talk will start with a presentation of this new-fangled paradigm that we now see everywhere (it’s used in Redux, React, Flux, inferno, you name it) and what makes is so useful and successful beyond the hype factor.</p><p> Then, I show you how code written in the functional, unidirectional way differs from your traditional OOP version, and the pros and cons that come with it. During my exploration of this new style, I decided to go “all-in” and totally buy into other people’s mindsets. I’ll share with you the insights gathered during that process. It will then end with a short live coding demo.</p>"
+---

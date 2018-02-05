@@ -1,6 +1,6 @@
 ---
 title: Stephanie Nemeth
-name: Frontend Dev @Werkspot and Co-organiser of the Stupid Hackanthlon Amsterdam
+name: Frontend Dev @Werkspot and Co-organiser of the Stupid Hackathon Amsterdam
 subtitle: Position
 layout: 2017_default
 modal-id: 2

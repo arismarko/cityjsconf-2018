@@ -1,0 +1,6 @@
+---
+title: Sam Bellen (Belgium) 
+name: Channel your inner rockstar with the web audio API.
+time: 15:30 - 16:00
+displayOrder: 12
+---

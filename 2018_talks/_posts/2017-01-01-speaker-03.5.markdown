@@ -1,0 +1,6 @@
+---
+title: Lucas Fernandes da Costa (Chai core team)
+name: JavaScript Behind The Scenes&#58; Meta Programming
+time: 12:00 - 12:30
+displayOrder: 5
+---

@@ -1,0 +1,6 @@
+---
+title: Alvin Ourrad
+name: How I fell in love with unidirectional Data Flow and functional programming (+ WebGL demo) 
+time: 10:00 - 10:30
+displayOrder: 1
+---

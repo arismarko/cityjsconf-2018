@@ -1,0 +1,6 @@
+---
+title: Kartik (Trunomi) (Sponsor)
+name: gRPC microservices using NodeJS  
+time: 14:00 - 14:30
+displayOrder: 9
+---

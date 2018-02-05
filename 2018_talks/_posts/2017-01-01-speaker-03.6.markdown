@@ -1,0 +1,6 @@
+---
+title: Mark Wubben
+name: Value Comparison&#58; How Do I Even?
+time: 12:30 - 13:00
+displayOrder: 6
+---

@@ -27,45 +27,23 @@
 
                                     <div class="dropdown">
                                         <span id="btn-scedule-1" data-id="#nav-ul-scedule-1" class="btn-scedule-css hidden-md hidden-lg label"></span>
-
-                                        <!-- Nav tabs -->
+                                        
                                         <ul class="nav nav-cus col-md-4" role="tablist"  id="nav-ul-scedule-1">
-                                            <li role="presentation" class="active">
-                                                <a href="#scedule-sub-1" aria-controls="scedule-sub-1" role="tab" data-toggle="tab">
-                                                    <span class="nav-header">Welcome &amp; Registration</span>
-                                                    <span class="nav-time">09:30am - 10:00am</span>
-                                                </a>
-                                            </li>
-                                            <li role="presentation" class="">
-                                                <a href="#scedule-sub-2" aria-controls="scedule-sub-2" role="tab" data-toggle="tab">
-                                                    <span class="nav-header">Rest of Schedule</span>
-                                                    <span class="nav-time">10:00am - 16:00pm</span>
-                                                </a>
-                                            </li>
-                                            <li role="presentation" class="">
-                                                <a href="#scedule-sub-x" aria-controls="scedule-sub-3" role="tab" data-toggle="tab">
-                                                    <span class="nav-header">Kyle Simpson and 
-                                                        Dylan Schiemann</span>
-                                                    <span class="nav-time">16:00pm - 18:00pm</span>
-                                                </a>
-                                            </li>
+                                            {% assign talks = site.categories.2018_talks | sort: 'displayOrder' %}
+                                            {% for talk in talks %}
+                                                {% capture schedule_id %}scedule-sub-{{talk.displayOrder}}{% endcapture %}
+                                                {% include schedule_item.html index=talk.displayOrder %}
+                                            {% endfor %}
                                         </ul>
                                     </div>
 
                                     <!-- Tab panes -->
                                     <div class="tab-content col-md-8">
-                                        <div role="tabpanel" class="tab-pane active" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-sub-1">
-                                            <h3> Welcome and Registration</h3>
-                                            <p>Coffee and Tea and breakfast will be provided</p>
-                                        </div>
-                                         <div role="tabpanel" class="tab-pane" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-sub-2">
-                                            <h3>Rest of Schedule</h3>
-                                            <p>Full information will be added once we announce full line up. You can find more info for the talks on the Speaker's section.</p>
-                                        </div>
-                                        <div role="tabpanel" class="tab-pane" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-sub-x">
-                                            <h3>Kyle Simpson and Dylan Schiemann</h3>
-                                            <p>Strong vs. Weak Typing with JavaScript</p>
-                                        </div>
+                                        {% assign talks = site.categories.2018_talks | sort: 'displayOrder' %}
+                                        {% for talk in talks %}
+                                            {% capture schedule_id %}scedule-sub-{{talk.displayOrder}}{% endcapture %}
+                                            {% include schedule_panel.html %}
+                                        {% endfor %}
                                     </div>
                                     
                                 </div>

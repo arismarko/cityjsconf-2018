@@ -1,0 +1,6 @@
+---
+title: Peter Heard
+name: Building Scalable React Native Apps
+time: 13:30 - 14:00
+displayOrder: 8
+---

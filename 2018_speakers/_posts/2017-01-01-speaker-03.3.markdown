@@ -1,6 +1,6 @@
 ---
 title: Alvin Ourrad
-name: Functional Programmer, Cloud Architect, Learner, Speaker
+name: Functional Programmer @BBC, Cloud Architect, Learner, Speaker
 subtitle: Position
 layout: 2017_default
 sid: 1

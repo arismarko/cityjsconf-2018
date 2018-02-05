@@ -1,4 +1,9 @@
-<div role="tabpanel" class="tab-pane active" data-wow-offset="10" data-wow-duration="1.5s" id="{{schedule_id}}">
+{% if talk.displayOrder == 1 %}
+{% assign active="active" %}
+{% else %}
+{% assign active="" %}
+{% endif %}
+<div role="tabpanel" class="tab-pane {{active}}" data-wow-offset="10" data-wow-duration="1.5s" id="{{schedule_id}}">
     <h3>{{talk.name}}</h3>
     <p>{{talk.description}}</p>
 </div>

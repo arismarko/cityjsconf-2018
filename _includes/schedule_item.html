@@ -1,5 +1,10 @@
-<li role="presentation" class="active">
-    <a href="{{schedule_id}}" aria-controls="{{schedule_id}}" role="tab" data-toggle="tab">
+{% if talk.displayOrder == 1 %}
+{% assign class="active" %}
+{% else %}
+{% assign class="" %}
+{% endif %}
+<li role="presentation" class="{{class}}">
+    <a href="#{{schedule_id}}" aria-controls="{{schedule_id}}" role="tab" data-toggle="tab">
         <span class="nav-header">{{talk.title}}</span>
         <span class="nav-time">{{talk.time}}</span>
     </a>

@@ -7,7 +7,7 @@ sid: 2
 img: kartikv.jpeg
 thumbnail: kartikv.jpeg
 alt: Picture of TBD
-topic: How to make pragmatic choices around developer experience vs user experience
+topic: gRPC microservices using NodeJS  
 description: "&quot;Born in Google, gRPC is a modern open source high performance RPC framework that can run in any environment. It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication.&quot; It is also applicable in last mile of distributed computing to connect devices, mobile applications and browsers to backend services. In this talk we will explore building gRPC microservices using NodeJS and integrate them into a polyglot microservices scenario."
 bio: "Full and Multi stack end-to-end chief architect & principle engineer with expertise in both Open Source/Apache and Microsoft stacks. 15+ years of experience in a wide range of fields from entertainment to financial to medical & geospatial. Having a strong passion for architecting and delivering secure, highly scalable, efficient, performant distributed systems, infrastructure and data solutions. Expert level knowledge of architecting and building Software Products, big data and machine learning platforms, spatially aware solutions, analytics solutions, social and collaborative solutions, and cloud and managed services."
 ---

@@ -9,4 +9,8 @@ alt: Picture of TBD
 topic: "Getting started with Apollo GraphQL: an opinionated end to end journey with Node.js and React"
 description: "
 GraphQL is quickly becoming an industry standard. For most use cases, querying data via a GraphQL graph rather than a RESTful API simple makes more sense. There are a whole host of tools available to build your GraphQL services. In fact, we are spoiled for choice! This talk goes over some GraphQL best practices and gives an opinionated view on how to first set up a GraphQL API with Apollo and Node.js and then query that API using a React frontend."
+displayOrder: 10
+time: 15:30 - 16:00
+type: "speaker"
+speaker: true
 ---

@@ -2,5 +2,23 @@
 title: Peter Heard
 name: Building Scalable React Native Apps
 time: 13:30 - 14:00
+description: "<p>We all want our apps to scale right? Then why do we face the same problems building JavaScript apps that we were facing over a decade ago using .net?</p>
+
+<p>We are told that the React architecture will somehow save us like the emperors new clothes, we throw in fancy add ons like Redux but eventually we always end up with a mess.</p>
+
+<p>Designing flexible software hasn’t really changed. And by focussing on the frameworks it takes us away from the single most important thing; to separate the framework from our code!</p>
+
+<p>In this talk Pete will take you through a journey of building a modern mobile app using React Native and Redux. We will see how to apply the principles of Agile Craftsmanship to build a system of metaphorically designed software with loosely coupled tests which actually make sense even to the casual observer. Begin to refactor your code with ease as we step into a better paradigm for handling our React Native apps like a boss!</p>
+
+<p>We will discover :</p>
+<ul>
+<li>how to write cross platform code which can be used in React Native and React Web (or any other Single Page App for that matter)</li>
+<li>how to ‘deal' with Redux and where it lives</li>
+<li>how YOU can use React so it doesn’t USE you</li>
+<li>how to apply dependency management across architectural boundaries such as HTTP or the device specific storage</li>
+<li>and the elephant in the room… yes! you do need an Inversion Of Control container in JS apps!
+</li>
+</ul>
+</p>"
 displayOrder: 8
 ---

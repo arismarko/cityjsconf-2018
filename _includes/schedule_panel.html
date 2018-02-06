@@ -3,7 +3,11 @@
 {% else %}
 {% assign active="" %}
 {% endif %}
-<div role="tabpanel" class="tab-pane {{active}}" data-wow-offset="10" data-wow-duration="1.5s" id="{{schedule_id}}">
-    <h3>{{talk.name}}</h3>
+
+
+<div role="tabpanel" class="tab-pane {{active}}"  style="position:fixed;top:0px;" data-wow-offset="10" data-wow-duration="1.5s" id="{{schedule_id}}">
+
+    <h3>{{talk.title}}</h3>
+    <p>{{talk.topic}}</p>
     <p>{{talk.description}}</p>
 </div>

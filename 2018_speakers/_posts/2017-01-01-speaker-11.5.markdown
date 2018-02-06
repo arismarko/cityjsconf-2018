@@ -9,4 +9,7 @@ thumbnail: stockwell.jpg
 alt: Picture of TBD
 topic: TBD
 description: TBD
+displayOrder: 13
+time: 16:45 - 17:15
+speaker: true
 ---

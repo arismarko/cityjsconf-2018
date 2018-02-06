@@ -9,4 +9,7 @@ thumbnail: yancui.jpg
 alt: Picture of TBD
 topic: Applying principles of chaos engineering to Serverless
 description: "<p>The motivation of this talk is to provoke the audience to think about the failure modes that exists in their serverless architecture and how they can discover them early by applying the principles of chaos engineering.</p> <p> Serverless architectures have more inherent chaos and complexity than their serverful counterparts, and, we have less control over their runtime behaviour! For instance: * smaller unit of deployment, means there are more of them, and each of these “units” is a boundary that needs to be hardened (for security and failure resilience) * it’s more difficult to harden around the boundaries simply because there are so many more of them * more intermediate services (dynamodb, kinesis, SNS, S3, API Gateway to name a few), each with their own failure modes * there are more configurations overall (timeout, IAM permissions, application config, etc.) therefore more opportunities for misconfiguration.</p>"
+displayOrder: 5
+time: 12:55 - 13:30
+speaker: true
 ---

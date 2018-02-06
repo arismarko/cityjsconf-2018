@@ -3,11 +3,14 @@ title: Jonathan Fielding
 name: Engineering Manager @Beamly
 subtitle: Position
 layout: 2017_default
-sid: 2
+sid: 3
 img: jonathanf.jpeg
 thumbnail: jonathanf.jpg
 alt: Picture of TBD
 topic: How to make pragmatic choices around developer experience vs user experience
 description: "As developers we make choices every day such as what framework to use, what tools to use and what browsers to support. All these decisions have a huge impact on both our experience as developers and the users experience when using out sites. Unfortunately these two areas are not aligned so lets have a look at how we can be pragmatic as developers taking into account both our users and developers experiences."
 bio: "Jonathan is a Engineering Manager at Beamly, where he focuses on building out and improving the site to offer users the best possible experience. The main drive behind anything that Jonathan does is whether it will benefit someone in some way, whether that be through improving UX on or through contributing to open source to help push the web forward. Outside of work, he has written Beginning Responsive Design with HTML5 and CSS3 and has worked on many open source projects including SimpleStateManager, Echo.js ResponsiveJavascript.com and Doccy. Aside from development he also has an awesome collection of geeky t-shirts."
+displayOrder: 3
+time: 11:20 - 11:55
+speaker: true
 ---

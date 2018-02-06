@@ -1,9 +1,9 @@
 
-        <section class="scedule" id="section-3"> <!-- Start: our-featured-speaker, "SECTION-3" -->
+        <section class="scedule" id="section-3" style="position:relative"> <!-- Start: our-featured-speaker, "SECTION-3" -->
             <div class="fix overlay-color"> <!-- Start: Overlay color  -->
                 <div class="container">
                    
-                    <div class="row scedule-body">
+                    <div class="row scedule-body" >
                         <div role="tabpanel">
 
                             <!-- Nav tabs -->
@@ -28,8 +28,10 @@
                                     <div class="dropdown">
                                         <span id="btn-scedule-1" data-id="#nav-ul-scedule-1" class="btn-scedule-css hidden-md hidden-lg label"></span>
                                         
-                                        <ul class="nav nav-cus col-md-4" role="tablist"  id="nav-ul-scedule-1">
-                                            {% assign talks = site.categories.2018_talks | sort: 'displayOrder' %}
+                                        <ul class="nav nav-cus col-md-3" role="tablist"  id="nav-ul-scedule-1">
+                                            {% assign talks = site.categories.2018_speakers | sort: 'displayOrder' %}
+
+            
                                             {% for talk in talks %}
                                                 {% capture schedule_id %}scedule-sub-{{talk.displayOrder}}{% endcapture %}
                                                 {% include schedule_item.html index=talk.displayOrder %}
@@ -38,8 +40,8 @@
                                     </div>
 
                                     <!-- Tab panes -->
-                                    <div class="tab-content col-md-8">
-                                        {% assign talks = site.categories.2018_talks | sort: 'displayOrder' %}
+                                    <div class="tab-content col-md-6">
+                                        {% assign talks = site.categories.2018_speakers | sort: 'displayOrder' %}
                                         {% for talk in talks %}
                                             {% capture schedule_id %}scedule-sub-{{talk.displayOrder}}{% endcapture %}
                                             {% include schedule_panel.html %}

@@ -29,4 +29,5 @@ description: "<p>We all want our apps to scale right? Then why do we face the sa
 displayOrder: 9
 time: 15:00 - 15:30
 speaker: true
+group: rest
 ---

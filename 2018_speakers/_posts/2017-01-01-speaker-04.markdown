@@ -28,4 +28,5 @@ description: "<p>You know about the == operator, and the === operator too. They&
 displayOrder: 7
 time: 14:05 - 14:40
 speaker: true
+group: afternoon
 ---

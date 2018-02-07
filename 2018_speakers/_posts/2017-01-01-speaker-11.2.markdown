@@ -13,4 +13,5 @@ bio: "Full and Multi stack end-to-end chief architect & principle engineer with 
 displayOrder: 11
 time: 16:00 - 16:30
 speaker: true
+group: rest
 ---

@@ -13,4 +13,5 @@ bio: "Jonathan is a Engineering Manager at Beamly, where he focuses on building 
 displayOrder: 3
 time: 11:20 - 11:55
 speaker: true
+group: morning
 ---

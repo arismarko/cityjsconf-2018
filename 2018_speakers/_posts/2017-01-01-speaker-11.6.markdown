@@ -13,4 +13,5 @@ One of the biggest strengths and weaknesses, pun intended, is the weakly typed n
 displayOrder: 15
 time: 17:15 - 18:15
 speaker: false
+group: rest
 ---

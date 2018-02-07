@@ -12,4 +12,5 @@ description: "<p>The talk will start with a presentation of this new-fangled par
 displayOrder: 1
 time: 10:10- 10:45
 speaker: true
+group: morning
 ---

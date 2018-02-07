@@ -4,4 +4,5 @@ speaker: null
 description: Coffee and Tea, plus snacks will be provided
 displayOrder: 12
 time: 16:30 - 16:45
+group: rest
 ---

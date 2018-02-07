@@ -12,5 +12,4 @@ description: TBD
 displayOrder: 13
 time: 16:45 - 17:15
 speaker: true
-group: rest
 ---

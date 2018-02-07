@@ -12,4 +12,5 @@ description: "<p>The motivation of this talk is to provoke the audience to think
 displayOrder: 5
 time: 12:55 - 13:30
 speaker: true
+group: afternoon
 ---

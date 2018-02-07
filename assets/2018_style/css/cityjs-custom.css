@@ -150,3 +150,17 @@ Partners
         overflow: auto;
     }
 }
+
+.gray-panel  .panel-heading{
+    background:#c90000;
+    color:#fff;
+    border-left:5px solid #fff;
+    margin-bottom:5px;
+}
+
+@media (min-width: 968px) {
+    .scedule-main {
+        padding-left:100px;
+    }
+}
+

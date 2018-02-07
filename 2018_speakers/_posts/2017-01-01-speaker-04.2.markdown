@@ -13,4 +13,5 @@ displayOrder: 10
 time: 15:30 - 16:00
 type: "speaker"
 speaker: true
+group: rest
 ---

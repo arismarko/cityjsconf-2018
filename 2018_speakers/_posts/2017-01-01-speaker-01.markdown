@@ -11,4 +11,5 @@ description: "<p>When writing JavaScript there are lots of details about how the
 displayOrder: 6
 time: 13:30 - 14:05
 speaker: true
+group: afternoon
 ---

@@ -9,7 +9,8 @@
                     <div id="slider" class="wow fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s"><!-- Start: Slider Area -->
                         <!-- Speakers Slide images Goes Here -->
                         {% for post in site.categories.2018_speakers %}
-                        {% if post.speaker != null %}
+                        {% if post.speaker != null%}
+                        {% if post.hide != true %}
                             <div class="item">
                                 <div class="modal-content">
                                     <h3>{{ post.title }}</h3>
@@ -32,6 +33,7 @@
                                 <p>{{ post.topic }}</p>
                                 <a href="#" class="show-modal">More info</a>
                             </div>
+                            {% endif %}
                         {% endif %}
                         {% endfor %}
                     </div><!-- End: "slider" Area -->

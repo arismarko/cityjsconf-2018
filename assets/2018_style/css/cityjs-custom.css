@@ -151,6 +151,10 @@ Partners
     }
 }
 
+.panel {
+    background: transparent;
+}
+
 .gray-panel  .panel-heading{
     background:#c90000;
     color:#fff;

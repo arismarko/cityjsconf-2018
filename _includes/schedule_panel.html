@@ -5,9 +5,27 @@
 {% endif %}
 
 
-<div role="tabpanel" class="tab-pane {{active}}"  style="position:fixed;top:0px;" data-wow-offset="10" data-wow-duration="1.5s" id="{{schedule_id}}">
+<div role="tabpanel" class="tab-pane {{active}} hidden-xs"  data-wow-offset="10" data-wow-duration="1.5s" id="{{schedule_id}}">
+    {% if talk.speaker != null%}
+    <div class="row">
+        <div class="col-md-4 col-xs-12">
+                <img src="{{"../assets/2018_images/speakers-img/" | prepend: site.baseurl | append: talk.img}}"  align="middle" alt="">
+        </div>
+        <div class="col-md-8 col-xs-12 padding-left-10">
+                <h2>{{talk.topic}}</h2>
+                <h2>{{talk.title}}</h2>
+                <h4>{{talk.name}}</h4>
+               
+                <p>{{talk.description}}</p>
+        </div>
+    </div>
+    {% endif%}
 
-    <h3>{{talk.title}}</h3>
-    <p>{{talk.topic}}</p>
-    <p>{{talk.description}}</p>
+    {% if talk.speaker == null%}
+        <h2>{{talk.title}}</h2>
+        <h3>{{talk.description}}</h3>
+        <p class="hidden-lg">{{talk.time}}</p>
+
+    {% endif%}
+   
 </div>

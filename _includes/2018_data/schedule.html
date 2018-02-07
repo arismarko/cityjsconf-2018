@@ -12,13 +12,13 @@
                         col-sm-10 col-md-offset-5 col-md-8 col-lg-offset-2 col-lg-8 nav wow fadeInDown animated"
                             data-wow-offset="10" data-wow-duration="1.5s" role="tablist">
                             <li role="presentation" class="btn-group col-xs-12 col-sm-12 col-md-4 active">
-                                <a class="btn-border btn-standard btn btn-cus" href="#scedule-1" aria-controls="scedule-1" role="tab" data-toggle="tab">First Day</a>
+                                <a class="btn-border btn-standard btn" href="#scedule-1" aria-controls="scedule-1" role="tab" data-toggle="tab">Conference Day</a>
                             </li>
                             <li role="presentation" class="btn-group col-xs-12 col-sm-12 col-md-4">
-                                <a class="btn-border btn-standard btn btn-cus" href="#scedule-2" aria-controls="scedule-2" role="tab" data-toggle="tab">Second Day</a>
+                                <a class="btn-border btn-standard btn " href="#scedule-2" aria-controls="scedule-2" role="tab" data-toggle="tab">Workshop Day 1</a>
                             </li>
                             <li role="presentation" class="btn-group col-xs-12 col-sm-12 col-md-4">
-                                <a class="btn-border btn-standard btn btn-cus" href="#scedule-3" aria-controls="scedule-3" role="tab" data-toggle="tab">Third Day</a>
+                                <a class="btn-border btn-standard btn" href="#scedule-3" aria-controls="scedule-3" role="tab" data-toggle="tab">Workshop Day 2</a>
                             </li>
                         </ul>
     
@@ -26,8 +26,6 @@
     
                         <!-- Tab panes -->
                         <div class="tab-content col-md-12">
-    
-    
     
                             <div role="tabpanel" class="tab-pane active wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-1">
                                     <div class="col-sm-3 col-md-3 col-xs-16">
@@ -88,14 +86,14 @@
                                     <span id="btn-scedule-1" data-id="#nav-ul-scedule-1" class="btn-scedule-css hidden-md hidden-lg label"></span>
     
                                 <!-- Tab panes -->
-                                <div class="tab-content col-md-6 hidden-xs">
+                                <div class="tab-content col-md-9 ">
                                     {% assign talks = site.categories.2018_speakers | sort: 'displayOrder' %} {% for talk in talks %} {% capture schedule_id
                                     %}scedule-sub-{{talk.displayOrder}}{% endcapture %} {% include schedule_panel.html %} {%
                                     endfor %}
                                 </div>
     
                             </div>
-                            <div role="tabpanel" class="tab-pane" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-2">
+                            <div role="tabpanel"  class="tab-pane" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-2">
     
                                 <div class="dropdown">
                                     <span id="btn-scedule-2" data-id="#nav-ul-scedule-2" class="btn-scedule-css hidden-md hidden-lg label"></span>
@@ -111,7 +109,7 @@
                                         <li role="presentation" class="">
                                             <a href="#scedule-sub-wkd12" aria-controls="scedule-sub-wkd12" role="tab" data-toggle="tab">
                                                 <span class="nav-header">Kyle Simpson Workshop Day 1</span>
-                                                <span class="nav-time">TBD</span>
+                                                <span class="nav-time">10:00am - 17:00am</span>
                                             </a>
                                         </li>
     
@@ -127,6 +125,8 @@
                                     <div role="tabpanel" class="tab-pane" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-sub-wkd12">
                                         <h3>Kyle Simpson Workshop Day 1</h3>
                                         <p>A workshop on ES6: The Good Parts</p>
+                                        <div><p>With the advent of ES6 (aka ES2015) a few years back, the log jam holding back improvements to the JS language design was finally unstuck. But with it came a flood of new language features, into an already overwhelmingly crowded and fragmented ecosystem of JS tools and frameworks. And JS changes just keep coming and coming. For many, this pace of change can be very intimidating and frustration.</p> <p>This workshop is to give you a different perspective on the "right parts" of the latest changes in JS that you should focus on learning first. To motivate that effort, we need to understand what ES6 was really all about: declarative code readability. ES6 isn't about shiny new toys to do entirely new things, but rather about doing old things, better.</p> <p>We'll explore a variety of langauge additions from this perspective -- always asking, how does this improve the readability of code I have always written before -- including: arrow functions, block scoping, defaults, spread/rest, destructuring, iterators, generators, and more.</p> <p>If you've been wondering when you'll ever find the time to learn all this new stuff in JS, don't worry. This workshop is designed to help you focus on the parts you need to learn first and give you the "right" perspective on language feature improvements.More Info</p></div></span>
+                              
                                     </div>
                                 </div>
                             </div>
@@ -146,7 +146,8 @@
                                         <li role="presentation" class="">
                                             <a href="#scedule-sub-wkd22" aria-controls="scedule-sub-wkd22" role="tab" data-toggle="tab">
                                                 <span class="nav-header">Kyle Simpson Workshop Day 2</span>
-                                                <span class="nav-time">TBD</span>
+                                                <span class="nav-time">10:00am - 17:00pm</span>
+
                                             </a>
                                         </li>
                                     </ul>
@@ -161,6 +162,8 @@
                                     <div role="tabpanel" class="tab-pane" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-sub-wkd22">
                                         <h3>Kyle Simpson Workshop Day 2</h3>
                                         <p>A workshop on Node Fundamentals</p>
+                                        <p>Unquestionably, Node.js is one of the most exciting movements in the history of JavaScript. It's opened up a wide swath of new tasks that JS developers can tackle, and offers the unprecedented capability to write code and share that logic between the browser and the server.</p><p>But just knowing JS the language, or even being able to sling it around in browser web applications, is only a tiny slice of what you need to be able to write effective code in Node.js.</p><p>This all hands-on coding workshop will guide you through the basics and intermediate foundations that make up solid and robust Node.js programming, including: Command-line Interface (CLI) programming, file system operations, asynchronous coding, streams, modules/packages/npm, socket and HTTP handling, database persistence, and more!</p>
+                                          
                                     </div>
                                 </div>
     

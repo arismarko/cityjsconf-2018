@@ -4,8 +4,8 @@ name: JS Titans
 subtitle: Position
 layout: 2017_default
 modal-id: 2
-img: stockwell.jpg
-thumbnail: stockwell.jpg
+img: kylevsdylan.png
+thumbnail: kylevsdylan.png
 alt: Picture of TBD
 topic: The main event
 description: "CityJSConf we will be hosting a debate between Kyle Simpson and Dylan Schiemann on the merits of Strong and Weak typing in JavaScript moderated by Luca Mezallira.

@@ -1,7 +1,0 @@
----
-title: Stephanie Nemeth /Amsterdam, NL (Diversity)
-name: How to make your LEDs better listeners&#58; Leveraging MQTT protocol to communicate with hardware from web 
-time: 10:30 - 11:00
-description: 
-displayOrder: 2
----

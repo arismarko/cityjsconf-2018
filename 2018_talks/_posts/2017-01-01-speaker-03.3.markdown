@@ -1,6 +1,0 @@
----
-title: Jonathan Fielding
-name: How to make pragmatic choices around developer experience vs user experience
-time: 11:00 - 11:30
-displayOrder: 3
----

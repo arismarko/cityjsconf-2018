@@ -1,7 +1,0 @@
----
-title: Alex Lakatos (Mozilla)
-name: 
-time: 15:00 - 15:30
-description: TBC
-displayOrder: 11
----

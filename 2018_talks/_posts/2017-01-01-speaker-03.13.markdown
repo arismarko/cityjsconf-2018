@@ -1,7 +1,0 @@
----
-title: Kyle vs. Dylan debate
-name: 
-time: 16:00 - 16:30
-description: 
-displayOrder: 13
----

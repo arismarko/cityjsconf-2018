@@ -1,7 +1,7 @@
 ---
 title: Welcome
 speaker: null
-description: A opening talk by Dylan Schiemann
+description: An opening talk by Dylan Schiemann
 displayOrder: 0
 time: 10:00 - 10:10
 group: morning

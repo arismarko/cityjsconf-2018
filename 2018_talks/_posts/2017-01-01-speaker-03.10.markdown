@@ -1,7 +1,0 @@
----
-title: Philip StockWell (Microsoft)
-name: TBC - Propose typescript
-time: 14:30 - 15:00
-description: TBC
-displayOrder: 10
----

@@ -1,7 +1,0 @@
----
-title: Lucas Fernandes da Costa (Chai core team)
-name: JavaScript Behind The Scenes&#58; Meta Programming
-time: 12:00 - 12:30
-description: When writing JavaScript there are lots of details about how the language itself works most people don’t see, such as what happens when you define or retrieve a property, when you use the new operator or when you invoke a function. In this talk we will dive deep into the language’s inner workings and see how to improve performance, write cleaner and better APIs and create more extensible and adaptable programs by redefining operator’s behaviors using things such as the new ES6 Proxy/Reflect objects and many other features. By learning about meta programming you will not only be able to improve your code, you will be able to bend JavaScript to your will. Using meta programming techniques we are able to create powerful data structures and emulate some of other language’s powerful features, such as Haskell’s lazy properties and infinite sequences. Also, instead of only showing what youcando,I will show you how to do itand use real world examples to make it easier for everyone to apply these techniques in their job and personal projects as soon as possible. Learning meta programming is just like watching Sixth Sense for the first time&#58; the perspective change blows your mind. Learning objectives&#58; Meta Programming techniques in JavaScript Better understanding of how the language works behind the scenes How to take advantage of the Reflect/Proxy/Object/Symbol APIs
-displayOrder: 5
----

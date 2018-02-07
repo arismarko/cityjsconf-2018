@@ -15,4 +15,7 @@ time: 17:15 - 18:45
 speaker: false
 group: rest
 hide: true
+bio: "Dylan Schiemann CEO of SitePen and co-founder of Dojo, Dylan Schiemann is an established presence in the JavaScript and open source communities.  Under his direction, SitePen has become the definitive source for enterprise organizations that are focused on creating well-tested, highly performant and sustainable web applications.  Dylan’s current initiatives include guiding development on Intern, TypeScript and the anticipated launch of Dojo 2. Dylan was the co-founder of the Dojo Foundation prior to its merger with the jQuery Foundation to form the JS Foundation.  When not actively engaged in bettering SitePen and demanding better developer tools, Dylan enjoys traveling and sharing his experience at conferences around the world.
+<br/><br/>
+Kyle Simpson is an evangelist of the open web, passionate about all things JavaScript. He writes books, teaches JavaScript, speaks, and contributes to the world of OSS."
 ---

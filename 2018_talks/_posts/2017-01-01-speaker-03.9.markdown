@@ -1,7 +1,0 @@
----
-title: Kartik (Trunomi) (Sponsor)
-name: gRPC microservices using NodeJS  
-time: 14:00 - 14:30
-description: Born in Google, gRPC is a modern open source high performance RPC framework that can run in any environment. It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication. It is also applicable in last mile of distributed computing to connect devices, mobile applications and browsers to backend services. In this talk we will explore building gRPC microservices using NodeJS and integrate them into a polyglot microservices scenario.
-displayOrder: 9
----

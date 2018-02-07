@@ -1,6 +1,6 @@
 ---
 title: Mark Wubben
-name: Dojo - AvaJS - InstabulJS
+name: Dojo - AvaJS - IstanbulJS
 subtitle: Position
 layout: 2017_default
 sid: 3

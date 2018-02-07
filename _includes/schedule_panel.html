@@ -17,6 +17,12 @@
                 <h4>{{talk.name}}</h4>
                
                 <p>{{talk.description}}</p>
+              
+                {% if talk.bio %}
+                <h4>Bio</h4>
+                <p>{{talk.bio}}</p>
+                {% endif %}
+                
         </div>
     </div>
     {% endif%}

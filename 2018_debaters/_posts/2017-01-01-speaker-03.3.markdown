@@ -1,6 +1,6 @@
 ---
 title: Luca Mezallira
-name:  Event's Moderator
+name:  Debate's Moderator
 subtitle: Position
 layout: 2017_default
 modal-id: 1

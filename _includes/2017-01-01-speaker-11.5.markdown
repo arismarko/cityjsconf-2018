@@ -7,10 +7,9 @@ modal-id: 2
 img: stockwell.jpg
 thumbnail: stockwell.jpg
 alt: Picture of TBD
-topic: To be provided soon
-description: Talk will be available soon.
+topic: TBD
+description: TBD
 displayOrder: 13
 time: 16:45 - 17:15
 speaker: true
-group: rest
 ---

@@ -9,28 +9,32 @@
                     <div id="slider" class="wow fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s"><!-- Start: Slider Area -->
                         <!-- Speakers Slide images Goes Here -->
                         {% for post in site.categories.2018_speakers %}
-                        <div class="item">
-                            <div class="modal-content">
+                        {% if post.speaker != null%}
+                        {% if post.hide != true %}
+                            <div class="item">
+                                <div class="modal-content">
+                                    <h2>{{ post.title }}</h2>
+                                    <h3>{{ post.name }}</h3>
+                                    <h4>Description</h4>
+                                    <p>{{ post.description }}</p>
+                                    {% if post.bio %}
+                                        <h4>Bio</h4>
+                                        <p>{{ post.bio }}</p>
+                                    {% endif %}
+                                </div>
+                                <div class="view view-first">
+                                    <img src="{{"../assets/2018_images/speakers-img/" | prepend: site.baseurl | append: post.img}}"  align="middle" alt="">
+                                </div>
+                                <div class="clearfix"></div>
+
                                 <h3>{{ post.title }}</h3>
                                 <p>{{ post.name }}</p>
-                                <h4>Description</h4>
-                                <p>{{ post.description }}</p>
-                                {% if post.bio %}
-                                    <h4>Bio</h4>
-                                    <p>{{ post.bio }}</p>
-                                {% endif %}
-                            </div>
-                            <div class="view view-first">
-                                <img src="{{"../assets/2018_images/speakers-img/" | prepend: site.baseurl | append: post.img}}"  align="middle" alt="">
-                            </div>
-                            <div class="clearfix"></div>
 
-                            <h3>{{ post.title }}</h3>
-                            <p>{{ post.name }}</p>
-
-                            <p>{{ post.topic }}</p>
-                            <a href="#" class="show-modal">More info</a>
-                        </div>
+                                <p>{{ post.topic }}</p>
+                                <a href="#" class="show-modal">More info</a>
+                            </div>
+                            {% endif %}
+                        {% endif %}
                         {% endfor %}
                     </div><!-- End: "slider" Area -->
                 </div><!-- Start: Speakers Body Area -->

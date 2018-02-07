@@ -1,13 +1,7 @@
 ---
-title: Pete Heard
-name: Logicroom
-subtitle: Position
-layout: 2017_default
-modal-id: 2
-img: peteheard.jpeg
-thumbnail: peteheard.jpeg
-alt: Picture of TBD
-topic: Building Scalable React Native Apps
+title: Peter Heard
+name: Building Scalable React Native Apps
+time: 13:30 - 14:00
 description: "<p>We all want our apps to scale right? Then why do we face the same problems building JavaScript apps that we were facing over a decade ago using .net?</p>
 
 <p>We are told that the React architecture will somehow save us like the emperors new clothes, we throw in fancy add ons like Redux but eventually we always end up with a mess.</p>
@@ -26,8 +20,5 @@ description: "<p>We all want our apps to scale right? Then why do we face the sa
 </li>
 </ul>
 </p>"
-displayOrder: 9
-time: 15:00 - 15:30
-speaker: true
-group: rest
+displayOrder: 8
 ---

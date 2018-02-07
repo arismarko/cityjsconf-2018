@@ -1,11 +1,8 @@
 ---
-title: Alex Lakatos
-name: Mozilla, Nexmo
-subtitle: Position
-layout: 2017_default
-sid: 5
-img: alex_thumbnail.jpg
-alt: Picture of TBD
-topic: TBD
-description: Will be available soon.
+title: Welcome
+speaker: null
+description: A opening talk by Dylan Schiemann
+displayOrder: 0
+time: 10:00 - 10:10
+group: morning
 ---

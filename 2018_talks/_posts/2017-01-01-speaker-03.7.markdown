@@ -1,0 +1,7 @@
+---
+title: Kadi Kraman
+name: GraphQL TODO&#58; Update with real description
+time: 13:00 - 13:30
+description: TODO&#58; Add description
+displayOrder: 7
+---

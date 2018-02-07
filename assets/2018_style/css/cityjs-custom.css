@@ -150,3 +150,52 @@ Partners
         overflow: auto;
     }
 }
+
+.panel {
+    background: transparent;
+}
+
+.gray-panel  .panel-heading{
+    background:#c90000;
+    color:#fff;
+    border-left:5px solid #fff;
+    margin-bottom:5px;
+}
+
+@media (min-width: 968px) {
+    .scedule-main {
+        padding-left:100px;
+    }
+}
+
+.scedule h2 {
+    padding-top:0px;
+}
+
+
+.scedule h2, .scedule h3, .scedule h4 {
+    color: #fff;
+}
+.scedule ul, .scedule li {
+    color: #fff;
+}
+
+.scedule-body .tab-pane ul {
+    display: block;
+}
+
+@media (max-width: 968px) {
+    .scedule .nav-cus .active a span {
+       color:#fff !important;
+    }
+
+    .scedule .nav-cus li.active {
+        background: #c90000;
+        color:#fff;
+    }
+    
+}
+
+.scedule  .padding-left-10 {
+  padding-left:30px;
+}

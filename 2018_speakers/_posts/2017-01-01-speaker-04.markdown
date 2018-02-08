@@ -26,7 +26,7 @@ description: "<p>You know about the == operator, and the === operator too. They&
 
 <p>Finally I&rsquo;ll talk about deep value comparisons and why immutability is so important for building modern frontends.</p>"
 displayOrder: 7
-time: 14:05 - 14:40
+time: 13:50 - 14:20
 speaker: true
 group: afternoon
 ---

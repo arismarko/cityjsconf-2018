@@ -11,7 +11,7 @@ topic: The main event
 description: "CityJSConf we will be hosting a debate between Kyle Simpson and Dylan Schiemann on the merits of Strong and Weak typing in JavaScript moderated by Luca Mezallira.
 One of the biggest strengths and weaknesses, pun intended, is the weakly typed nature of JavaScript. In this debate, we’ll consider the value and benefits of adding development time type systems such as TypeScript vs. limitations they may impose."
 displayOrder: 15
-time: 17:15 - 18:45
+time: 17:35 - 19:00
 speaker: false
 group: rest
 hide: true

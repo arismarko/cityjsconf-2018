@@ -186,12 +186,16 @@ Partners
 
 @media (max-width: 968px) {
     .scedule .nav-cus .active a span {
-       color:#fff !important;
+       color: #242429;
+    }
+
+    .scedule .nav-cus li{
+         background: #fff;
     }
 
     .scedule .nav-cus li.active {
-        background: #c90000;
-        color:#fff;
+        background:#fff;
+        color:#000;
     }
     
 }

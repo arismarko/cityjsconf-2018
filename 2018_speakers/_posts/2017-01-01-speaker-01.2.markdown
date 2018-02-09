@@ -1,0 +1,8 @@
+---
+title: Lunch
+speaker: null
+description: Lunch to be provided from our sponsors
+displayOrder: 4
+time: 11:45 - 12:45
+group: morning
+---

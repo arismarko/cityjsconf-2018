@@ -1,0 +1,21 @@
+---
+title: Kyle vs Dylan
+name: JS Titans
+subtitle: Position
+layout: 2017_default
+modal-id: 2
+img: kylevsdylan.png
+thumbnail: kylevsdylan.png
+alt: Picture of TBD
+topic: The main event
+description: "CityJSConf we will be hosting a debate between Kyle Simpson and Dylan Schiemann on the merits of Strong and Weak typing in JavaScript moderated by Luca Mezallira.
+One of the biggest strengths and weaknesses, pun intended, is the weakly typed nature of JavaScript. In this debate, we’ll consider the value and benefits of adding development time type systems such as TypeScript vs. limitations they may impose."
+displayOrder: 15
+time: 17:35 - 19:00
+speaker: false
+group: rest
+hide: true
+bio: "Dylan Schiemann CEO of SitePen and co-founder of Dojo, Dylan Schiemann is an established presence in the JavaScript and open source communities.  Under his direction, SitePen has become the definitive source for enterprise organizations that are focused on creating well-tested, highly performant and sustainable web applications.  Dylan’s current initiatives include guiding development on Intern, TypeScript and the anticipated launch of Dojo 2. Dylan was the co-founder of the Dojo Foundation prior to its merger with the jQuery Foundation to form the JS Foundation.  When not actively engaged in bettering SitePen and demanding better developer tools, Dylan enjoys traveling and sharing his experience at conferences around the world.
+<br/><br/>
+Kyle Simpson is an evangelist of the open web, passionate about all things JavaScript. He writes books, teaches JavaScript, speaks, and contributes to the world of OSS."
+---

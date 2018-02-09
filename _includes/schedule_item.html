@@ -1,0 +1,26 @@
+{% if talk.displayOrder == 1 %}
+{% assign active="active" %}
+{% else %}
+{% assign active="" %}
+{% endif %}
+<li role="presentation" class="{{active}}">
+    <a href="#{{schedule_id}}" aria-controls="{{schedule_id}}" role="tab" data-toggle="tab"  class="hidden-xs hidden-sm hidden-md">
+        <span class="nav-header">{{talk.title}}</span>
+        <span class="nav-time">{{talk.time}}</span>
+        <span class="nav-time hidden-md hidden-lg">{{talk.topic}}</span>    
+    </a>
+
+    <a href="#" aria-controls="{{schedule_id}}" role="tab" data-toggle="tab" class="show-modal hidden-lg">
+    
+            <span class="nav-header">{{talk.title}}</span>
+            <span class="nav-time">{{talk.time}}</span>
+            <span class="nav-time hidden-md hidden-lg">{{talk.topic}}</span>
+            <div class="modal-content">
+                    <h2>{{talk.topic}}</h2>
+                    <h2>{{talk.title}}</h2>
+                    <h4>{{talk.name}}</h4>
+                   
+                    <p>{{talk.description}}</p>
+            </div>
+    </a>
+</li>

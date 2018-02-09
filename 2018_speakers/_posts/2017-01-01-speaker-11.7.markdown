@@ -1,16 +1,16 @@
 ---
-title: Alex Lakatos
-name: Developer Advocate @Mozilla, Nexmo
+title: Philip Stockwell
+name: Developer Advocate @Microsoft
 subtitle: Position
 layout: 2017_default
 modal-id: 2
-img: alex_thumbnail.jpg
-thumbnail: alex_thumbnail.jpg
+img: stockwell.jpg
+thumbnail: stockwell.jpg
 alt: Picture of TBD
 topic: To be provided soon
 description: Talk will be available soon.
-displayOrder: 14
-time: 17:05 - 17:35
+displayOrder: 13
+time: 16:35 - 17:05
 speaker: true
 group: rest
 ---

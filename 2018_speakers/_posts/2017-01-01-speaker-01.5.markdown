@@ -1,0 +1,8 @@
+---
+title: Breakfast
+speaker: null
+description: Coffee and Tea, plus snacks will be provided
+displayOrder: -1
+time: 09:30 - 10:00
+group: morning
+---

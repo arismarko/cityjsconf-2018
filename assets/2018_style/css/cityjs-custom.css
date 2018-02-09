@@ -190,12 +190,30 @@ Partners
     }
 
     .scedule .nav-cus li.active {
-        background: #c90000;
-        color:#fff;
-    }
-    
+    background: #c90000;
+    color:#fff;
+}
+
 }
 
 .scedule  .padding-left-10 {
   padding-left:30px;
+}
+
+.become-partner {
+    width: 400px;
+    height: 200px;
+    background:#333;
+    padding-top:30px;
+   
+}
+
+.become-partner a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.jsweekly {
+    width:50%;
 }

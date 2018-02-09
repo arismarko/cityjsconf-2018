@@ -150,9 +150,9 @@ Partners
         overflow: auto;
     }
 
-    .gold-sponsor img,
-    .silver-sponsor img,
-    .bronze-sponsor img {
+    .gold-partner img,
+    .silver-partner img,
+    .bronze-partner img {
         width:100%;
     } 
 }

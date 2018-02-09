@@ -149,4 +149,10 @@ Partners
         align-items: flex-start;
         overflow: auto;
     }
+
+    .gold-sponsor img,
+    .silver-sponsor img,
+    .bronze-sponsor img {
+        width:100%;
+    } 
 }

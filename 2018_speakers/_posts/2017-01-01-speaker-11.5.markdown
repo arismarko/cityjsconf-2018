@@ -10,7 +10,7 @@ alt: Picture of TBD
 topic: To be provided soon
 description: Talk will be available soon.
 displayOrder: 14
-time: 17:05 - 17:35
+time: 17:05 - 17:40
 speaker: true
 group: rest
 ---

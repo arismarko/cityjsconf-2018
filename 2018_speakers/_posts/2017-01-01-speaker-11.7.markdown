@@ -9,8 +9,8 @@ thumbnail: stockwell.jpg
 alt: Picture of TBD
 topic: To be provided soon
 description: Talk will be available soon.
-displayOrder: 13
-time: 16:35 - 17:05
+displayOrder: 12
+time: 16:25-16:50
 speaker: true
 group: rest
 ---

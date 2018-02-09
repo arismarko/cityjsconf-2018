@@ -26,8 +26,8 @@ description: "<p>We all want our apps to scale right? Then why do we face the sa
 </li>
 </ul>
 </p>"
-displayOrder: 9
-time: 14:40 - 15:10
+displayOrder: 7
+time: 14:20-14:55
 speaker: true
-group: rest
+group: afternoon
 ---

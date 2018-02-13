@@ -149,6 +149,14 @@ Partners
         align-items: flex-start;
         overflow: auto;
     }
+<<<<<<< HEAD
+
+    .gold-partner img,
+    .silver-partner img,
+    .bronze-partner img {
+        width:100%;
+    } 
+=======
 }
 
 .panel {
@@ -202,4 +210,23 @@ Partners
 
 .scedule  .padding-left-10 {
   padding-left:30px;
+}
+
+.become-partner {
+    width: 400px;
+    height: 200px;
+    background:#333;
+    padding-top:30px;
+   
+}
+
+.become-partner a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.jsweekly {
+    width:50%;
+>>>>>>> 36d37b9eae4a452e78b06641eb06a54587fb91dc
 }

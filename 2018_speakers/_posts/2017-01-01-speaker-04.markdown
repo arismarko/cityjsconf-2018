@@ -25,8 +25,8 @@ description: "<p>You know about the == operator, and the === operator too. They&
 <p>I&rsquo;ll discuss how seemingly weird numbers are in JavaScript. It doesn&rsquo;t help that they&rsquo;re actually floats, resulting in 0.1 + 0.2 !== 0.3. I&rsquo;ll explain why Number.MAX_SAFE_INTEGER + 2 === Number.MAX_SAFE_INTEGER + 1. And why there is a negative zero, and why NaN !== NaN. There&rsquo;ll be a brief aside for the BigInt proposal and a quick reference of other proposals for fixing numbers.</p>
 
 <p>Finally I&rsquo;ll talk about deep value comparisons and why immutability is so important for building modern frontends.</p>"
-displayOrder: 7
-time: 13:50 - 14:20
+displayOrder: 8
+time: 13:45-14:20
 speaker: true
 group: afternoon
 ---

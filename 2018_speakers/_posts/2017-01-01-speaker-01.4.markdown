@@ -2,7 +2,7 @@
 title: Break
 speaker: null
 description: Coffee and Tea, plus snacks will be provided
-displayOrder: 12
-time: 16:10 - 16:35
+displayOrder: 13
+time: 16:50-17:05
 group: rest
 ---

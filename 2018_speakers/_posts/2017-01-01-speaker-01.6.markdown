@@ -1,0 +1,8 @@
+---
+title: Welcome
+speaker: null
+description: An opening talk by Dylan Schiemann
+displayOrder: 0
+time: 9:40-9:50
+group: morning
+---

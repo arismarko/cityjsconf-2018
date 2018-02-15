@@ -1,8 +1,8 @@
 ---
-title: Welcome
+title: Closing
 speaker: null
-description: An opening talk by Dylan Schiemann
-displayOrder: 0
-time: 10:00 - 10:10
-group: morning
+description: Closing of the event
+displayOrder: 16
+time: 19:00-19:15
+group: rest
 ---

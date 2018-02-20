@@ -7,8 +7,10 @@ modal-id: 2
 img: stockwell.jpg
 thumbnail: stockwell.jpg
 alt: Picture of TBD
-topic: To be provided soon
-description: Talk will be available soon.
+topic: Productive Web Development with VS Code and TypeScript
+description: "<p>The JavaScript language and tooling has progressed quickly over the last few years, but one thing still holds true, your end users are unlikely to have the same version as you. If you want to use the latest features and those still progressing through TC39 - such as async functions and decorators you'll have to compile.</p>
+<p>A compiler opens up the possibility of highly-productive development tools and practices, like static checking and code refactoring when developing JavaScript applications.</p>
+<p>We'll take a look at how Visual Studio Code and TypeScript improves your development whether you're working with existing JavaScript codebases or making the switch to TypeScript.</p>"
 displayOrder: 12
 time: 16:25-16:50
 speaker: true

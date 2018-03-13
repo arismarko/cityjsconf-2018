@@ -4,7 +4,7 @@ name: Software Engineer at Utility Warehouse
 subtitle: Position
 layout: 2017_default
 sid: 2
-img: kartikv.jpeg
+img: kevin.png
 thumbnail: kevin.png
 alt: Picture of TBD
 topic: Building a JavaScript UI Framework SDK for Native Mobile and Web

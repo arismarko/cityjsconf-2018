@@ -3,14 +3,14 @@ title: Jo Francetti
 name: Developer Advocate for samsung internet, Codebar
 subtitle: Position
 layout: 2017_default
-sid: 30
+sid: 31
 img: jothumb.jpg
 thumbnail: jothumb.jpg
 alt: Picture of TBD
 topic: Diversity Talk
 description: "<p>Introduction to Codebar</p>"
 displayOrder: 100
-time: 19:00 - 19:30
+time: 19:00 - 19:15
 speaker: true
 group: rest
 ---

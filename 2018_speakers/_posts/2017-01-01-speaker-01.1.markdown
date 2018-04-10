@@ -4,7 +4,7 @@ name: Founder of of TECH(K)NOW Day, Director of Women Who Code London
 speaker: null
 description: Introduction to Women Who Code
 displayOrder: 16
-time: 19:00-19:15
+time: 19:15-19:30
 group: rest
 thumbnail: gen.jpg
 img: gen.jpg

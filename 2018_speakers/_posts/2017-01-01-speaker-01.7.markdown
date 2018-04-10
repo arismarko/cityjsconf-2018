@@ -3,7 +3,7 @@ title: Jo Francetti
 name: Developer Advocate for samsung internet, Codebar
 subtitle: Position
 layout: 2017_default
-sid: 31
+sid: 32
 img: jothumb.jpg
 thumbnail: jothumb.jpg
 alt: Picture of TBD

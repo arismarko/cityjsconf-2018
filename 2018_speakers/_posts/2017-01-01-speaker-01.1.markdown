@@ -3,8 +3,10 @@ title: Gen Ashley
 speaker: null
 description: Introduction to Women Who Code
 displayOrder: 16
-img: gen.jpg
-thumbnail: gen.jpg
 time: 19:00-19:15
 group: rest
+thumbnail: gen.jpg
+alt: Picture of TBD
+topic: Diversity Talk
+description: "<p>Introduction to Women Who Code London</p>"
 ---

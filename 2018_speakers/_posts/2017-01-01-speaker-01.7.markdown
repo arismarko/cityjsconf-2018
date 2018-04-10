@@ -3,7 +3,7 @@ title: Gen Ashley
 name: Found of of TECH(K)NOW Day, Director of Women Who Code London
 subtitle: Position
 layout: 2017_default
-sid: 1
+sid: 30
 img: gen.jpg
 thumbnail: gen.jpg
 alt: Picture of TBD

@@ -9,7 +9,7 @@ thumbnail: gen.jpg
 alt: Picture of TBD
 topic: Diversity Talk
 description: "<p>Introduction to Women Who Code London</p>"
-displayOrder: 4
+displayOrder: 100
 time: 19:00 - 19:30
 speaker: true
 group: rest,

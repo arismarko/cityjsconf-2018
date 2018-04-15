@@ -5,4 +5,7 @@ description: An opening talk by Dylan Schiemann
 displayOrder: 0
 time: 9:40-9:50
 group: morning
+videoUrl: https://cityjsconf2018.streameventlive.com/home/video/7 
+videoThumb: https://q5portalvhdshj9qv0tf3725.blob.core.windows.net/asset-ad3e2784-9914-43bf-ae3a-cabdec3b54a4/347423cc-84a9-49a4-9dad-2bc66670_000004.jpg?sv=2015-07-08&amp;sr=c&amp;si=7328a68b-b96f-4236-88f4-720b6c1107d5&amp;sig=sXhgZYj8Aqofq3Plvv65co80rNs%2BuhUhlMaZYelt2V4%3D&amp;se=2028-03-23T15%3A42%3A18Z
+hasVideo: true
 ---

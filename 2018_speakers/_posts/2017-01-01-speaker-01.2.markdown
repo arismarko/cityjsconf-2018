@@ -5,4 +5,5 @@ description: Lunch to be provided from our sponsors
 displayOrder: 5
 time: 12:10-13:10
 group: morning
+hasVideo: false
 ---

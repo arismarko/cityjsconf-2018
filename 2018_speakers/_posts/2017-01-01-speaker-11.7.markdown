@@ -15,4 +15,7 @@ displayOrder: 12
 time: 16:25-16:50
 speaker: true
 group: rest
+videoUrl: https://cityjsconf2018.streameventlive.com/home/video/16
+videoThumb: https://q5portalvhdshj9qv0tf3725.blob.core.windows.net/asset-54d88908-ddf3-4dbe-b4f1-8ce2d861f5f9/21c763f0-529b-4b5a-b3df-9f3c4faa_000001.jpg?sv=2015-07-08&amp;sr=c&amp;si=c7f35e7a-324c-433a-83a3-4860767e84c8&amp;sig=hTD%2FuHp4krSGGcIjHW%2Fa4gN%2BNofEd5V8fMELtFKou%2Fc%3D&amp;se=2028-03-23T17%3A11%3A51Z
+hasVideo: true
 ---

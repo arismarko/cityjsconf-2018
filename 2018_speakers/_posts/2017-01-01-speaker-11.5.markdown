@@ -19,4 +19,7 @@ displayOrder: 14
 time: 17:05 - 17:40
 speaker: true
 group: rest
+videoUrl: https://cityjsconf2018.streameventlive.com/home/video/23
+videoThumb: https://modhabstorage.blob.core.windows.net/mod-hab-event42710-2iy35j/thumbnail-235c65facd-81ca-4edf-891e-5bf9e7684008.jpg
+hasVideo: true
 ---

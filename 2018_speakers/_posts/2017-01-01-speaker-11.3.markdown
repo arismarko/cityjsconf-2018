@@ -15,4 +15,7 @@ description: "<p>Wooed by the possibility to put LEDs on ALL THE THINGS and cont
 <p>MQTT is a lightweight messaging architecture for sending data between hardware and other devices where a small code footprint and performance in poor network conditions are crucial. In this talk, we’ll look what exactly what MQTT is, how I use it in my own art/wearable project, and why you should check it out for your next hardware project.</p>"
 speaker: true
 group: morning
+videoUrl: https://cityjsconf2018.streameventlive.com/home/video/9
+videoThumb: https://q5portalvhdshj9qv0tf3725.blob.core.windows.net/asset-10709c64-660e-487a-817a-0b0656f04f74/808ed273-9978-415e-bade-0476baf3_000009.jpg?sv=2015-07-08&amp;sr=c&amp;si=05dcedfd-634c-4d72-bbc5-605b909e6e33&amp;sig=X2N1o9hxNJFSnp5XIGzftleZ3vHMtd4x%2FkG6gSnvqwI%3D&amp;se=2028-03-23T16%3A19%3A00Z
+hasVideo: true
 ---

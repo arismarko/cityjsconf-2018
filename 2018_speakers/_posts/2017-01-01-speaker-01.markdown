@@ -13,4 +13,7 @@ displayOrder: 6
 time: 13:10-13:45
 speaker: true
 group: afternoon
+videoUrl: https://cityjsconf2018.streameventlive.com/home/video/11
+videoThumb: https://modhabstorage.blob.core.windows.net/mod-hab-event42710-2iy35j/thumbnail-11860b367a-fa72-4d80-a1d3-e8d8c1580290.jpg
+hasVideo: true
 ---

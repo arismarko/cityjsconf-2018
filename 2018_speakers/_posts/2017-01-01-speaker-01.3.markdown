@@ -5,4 +5,5 @@ description: Coffee and Tea, plus snacks will be provided
 displayOrder: 9
 time: 14:55-15:15
 group: afternoon
+hasVideo: false
 ---

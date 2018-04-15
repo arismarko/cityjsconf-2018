@@ -13,4 +13,5 @@ displayOrder: 100
 time: 19:15 - 19:30
 speaker: true
 group: rest
+hasVideo: false
 ---

@@ -30,4 +30,7 @@ displayOrder: 7
 time: 14:20-14:55
 speaker: true
 group: afternoon
+videoUrl: https://cityjsconf2018.streameventlive.com/home/video/13
+videoThumb: https://q5portalvhdshj9qv0tf3725.blob.core.windows.net/asset-71e43ec8-54de-476c-945a-115934391199/7767be36-a003-4bde-9a11-b26cc024_000009.jpg?sv=2015-07-08&amp;sr=c&amp;si=9203e94d-0fc5-4cd6-9083-693ecebdb783&amp;sig=7PPA16YOvBgup86HF0yYj0%2BjDg18kQv4u5c09eK9B9U%3D&amp;se=2028-03-23T16%3A47%3A39Z
+hasVideo: true
 ---

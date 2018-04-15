@@ -14,4 +14,7 @@ displayOrder: 3
 time: 11:00-11:35
 speaker: true
 group: morning
+videoUrl: https://cityjsconf2018.streameventlive.com/home/video/8
+videoThumb: https://q5portalvhdshj9qv0tf3725.blob.core.windows.net/asset-ab639428-bd7c-4fa5-8be7-7e1d33dec9b5/4d129515-9932-4350-9299-3199c1b1_000005.jpg?sv=2015-07-08&amp;sr=c&amp;si=516adaba-394e-46df-8619-10063d552fb0&amp;sig=%2BzJ6ukEJqbrDlSOOtdkA6ECRFXBDfGADSZ0s%2Ba7HHGg%3D&amp;se=2028-03-23T15%3A58%3A06Z
+hasVideo: true
 ---

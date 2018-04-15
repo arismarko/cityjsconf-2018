@@ -1,0 +1,40 @@
+<section class="speakers" id="section-4" ><!-- Start: Speakers Area, "SECTION-4" -->
+    <div class="container">
+        <div class="row speakers-body col-md-12 col-lg-offset-1 col-lg-10" >
+
+            <div class="wow fadeInDown animated" data-wow-offset="120" data-wow-duration="1.5s">
+                <h2>OUR VIDEOS</h2><!-- Speakers Heading Goes Here -->
+            </div>
+        
+            <div id="slider2" class="wow fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s"><!-- Start: Slider Area -->
+                <!-- Speakers Slide images Goes Here -->
+                {% for post in site.categories.2018_speakers %}
+                {% if post.hasVideo != false%}
+                    <div class="item">
+                        <div class="modal-content">
+                            <h2>{{ post.title }}</h2>
+                            <h3>{{ post.name }}</h3>
+                            <h4>Description</h4>
+                            <p>{{ post.description }}</p>
+                            {% if post.bio %}
+                                <h4>Bio</h4>
+                                <p>{{ post.bio }}</p>
+                            {% endif %}
+                        </div>
+                        <div class="view view-first">
+                            <img src="{{post.videoThumb}}"  align="middle" alt="" width="200">
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <h3>{{ post.title }}</h3>
+                        <p>{{ post.name }}</p>
+
+                        <p>{{ post.topic }}</p>
+                        <a href="{{post.videoUrl}}" class="show-modal">See the video for FREE</a>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div><!-- End: "slider" Area -->
+        </div><!-- Start: Speakers Body Area -->
+    </div><!-- End:  "container"-->
+</section><!-- End: Speakers Area, "SECTION-4" -->

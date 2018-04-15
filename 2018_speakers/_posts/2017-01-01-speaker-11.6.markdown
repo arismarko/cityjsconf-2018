@@ -18,4 +18,7 @@ hide: true
 bio: "Dylan Schiemann CEO of SitePen and co-founder of Dojo, Dylan Schiemann is an established presence in the JavaScript and open source communities.  Under his direction, SitePen has become the definitive source for enterprise organizations that are focused on creating well-tested, highly performant and sustainable web applications.  Dylan’s current initiatives include guiding development on Intern, TypeScript and the anticipated launch of Dojo 2. Dylan was the co-founder of the Dojo Foundation prior to its merger with the jQuery Foundation to form the JS Foundation.  When not actively engaged in bettering SitePen and demanding better developer tools, Dylan enjoys traveling and sharing his experience at conferences around the world.
 <br/><br/>
 Kyle Simpson is an evangelist of the open web, passionate about all things JavaScript. He writes books, teaches JavaScript, speaks, and contributes to the world of OSS."
+videoUrl: https://cityjsconf2018.streameventlive.com/home/video/25
+videoThumb: https://q5portalvhdshj9qv0tf3725.blob.core.windows.net/asset-aade6b7d-ba45-48ef-b6ff-23276c8b0972/5d0ee50a-dfe7-4232-b373-d60b8e29_000005.jpg?sv=2015-07-08&amp;sr=c&amp;si=e65bded9-4a0b-43f1-a16f-b58cb331ed74&amp;sig=cM91az%2B%2ByLfp1Ec4BTQ6GZECht%2BW3pg6Z5LV%2F%2BJrO5o%3D&amp;se=2028-03-23T19%3A03%3A44Z
+hasVideo: true 
 ---

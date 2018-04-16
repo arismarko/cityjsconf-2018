@@ -9,7 +9,7 @@ thumbnail: jothumb.jpg
 alt: Picture of TBD
 topic: Diversity Talk
 description: "<p>Introduction to Codebar</p>"
-displayOrder: 1
+displayOrder: 100
 time: 19:15 - 19:30
 speaker: true
 group: rest
